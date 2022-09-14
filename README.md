@@ -4,3 +4,4 @@
 
 This is a home page of a website that a jeweler wanted built. It comes with a responsive navbar, a fading carousel, and bootstrap cards to store each individual watch. 
 
+## View deployment link [HERE](https://sunland-jewelers.netlify.app/#inventory)
