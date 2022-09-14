@@ -1,0 +1,87 @@
+h1 {
+  text-align:center;
+  color:white;
+  font-family:sans-serif;
+  background-color:#336699;
+  padding-top:1.5%;
+  padding-bottom:1.5%;
+  margin-top:-.6%;
+}
+
+.navbar {
+  margin-top: -1%;
+}
+
+.watch {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  gap: 30px;
+}
+
+#inventory {
+  margin-top: 5%;
+}
+
+.about {
+  margin-top: 5%;
+}
+
+.about h2 {
+  margin-left: 70%;
+  font-size: 300%;
+  margin-top: -35%;
+}
+
+.about h3 {
+  width: 40%;
+  margin-left: 57%;
+  line-height: 200%;
+}
+
+#about-us {
+  margin-left: 70%;
+  font-size: 150%;
+}
+
+#watchbox {
+  border-radius: 35px;
+  margin-left: 3%;
+  width: 50%;
+  max-width: 50%;
+}
+
+#google-maps {
+  margin-top: 7.5%;
+}
+
+#google-maps h3 {
+  font-size: 200%;
+  color: #336699;
+}
+
+#street {
+  margin-left: 60%;
+  margin-top: -15%;
+  margin-bottom: 2%;
+}
+
+#city {
+  margin-left: 60%;
+  margin-bottom: 10%;
+}
+
+#g-map {
+  border-radius: 35px;
+  margin-left: 20%;
+  width: 30%;
+  max-width: 30%;
+}
+
+footer {
+  background-color: #336699;
+  text-align: center;
+  padding-top:1.5%;
+  padding-bottom:1.5%;
+  color: white;
+}

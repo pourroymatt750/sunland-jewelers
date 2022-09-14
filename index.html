@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <link rel="stylesheet" href="/style.css">
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+  <script src="/app.js" type="module"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
+  <title>Sunland Jewelers</title>
+</head>
+<body>
+  <header>
+    <h1><strong>Sunland Jewelers</strong></h1>
+  </header>
+
+  <nav class="navbar" style="background-color: #d9d9d9;">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Login</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Cart</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Order Status</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-primary" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </nav>
+  
+  <div id="carouselExampleInterval" class="carousel slide carousel-fade" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="4000">
+        <img src="assets/images/mainpic-1.jpg" class="d-block w-100">
+      </div>
+      <div class="carousel-item" data-bs-interval="5000">
+        <img src="assets/images/pics-2.jpg" class="d-block w-100">
+      </div>
+      <div class="carousel-item" data-bs-interval="5000">
+        <img src="assets/images/pics3.jpg" class="d-block w-100">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <div id="inventory">
+    <div class="watch"></div>
+  </div>
+
+  <div class="about">
+    <img id="watchbox" src="assets/images/watchbox2.jpeg">
+    <h2>About Us</h2>
+    <h3>Since 2015, Sunland Jewelers has been committed to delivering some of the rarest and most sought after watches in the entire world. In a few short years, we have built up a large network of clientele and established business relationships built on trust, transparency, and openness. We carry some of the rarest watches in the world in our <a href="#inventory">inventory</a></h3>
+    <button type="button" class="btn btn-primary" id="about-us">More About Us</button>
+  </div>
+
+  <div id="google-maps">
+    <img id="g-map" src="assets/images/googlemap.jpeg">
+    <h3 id="street">22222 Sunland Ave</h3>
+    <h3 id="city">West Chester, CA 90000</h3>
+  </div>
+
+  <footer>
+    <h3>Contact</h3>
+    <h5>Phone: (888) 888-8888</h5>
+    <h5>Email: xyz@sunlandjewelers.com</h5>
+  </footer>
+</body>
+</html>
